@@ -1,0 +1,14 @@
+{
+    "name": "hello_world",
+    "description": "A demo skill that echoes input",
+    "version": "0.1.0",
+    "entry": "run.js",
+    "type": "node",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "message": {"type": "string", "description": "Message to echo"}
+        },
+        "required": ["message"]
+    }
+}

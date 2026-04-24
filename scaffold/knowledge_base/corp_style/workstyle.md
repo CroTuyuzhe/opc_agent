@@ -1,0 +1,1 @@
+WorkStyle:Day1,aim high,candid,data-driven,courageous,inclusive,grow together.Context>control,iterate fast

@@ -1,0 +1,43 @@
+{
+  "name": "opc-agent",
+  "version": "0.1.0",
+  "description": "OPC - AI multi-agent team orchestrator CLI",
+  "type": "module",
+  "bin": {
+    "opc": "./dist/main.js"
+  },
+  "files": [
+    "dist/",
+    "scaffold/"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsx src/main.ts"
+  },
+  "keywords": ["ai", "agent", "multi-agent", "cli", "orchestrator", "llm"],
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CroTuyuzhe/opc-agent.git"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "@inquirer/prompts": "^7.0.0",
+    "boxen": "^8.0.1",
+    "chalk": "^5.4.1",
+    "cli-table3": "^0.6.5",
+    "fs-extra": "^11.2.0",
+    "openai": "^4.77.0",
+    "ora": "^8.1.1"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^22.10.0",
+    "tsup": "^8.3.5",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
